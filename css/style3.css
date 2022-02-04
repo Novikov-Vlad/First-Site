@@ -1,0 +1,86 @@
+/*chase.html*/
+body{
+    background-image: url(../img/развилка.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -400px;
+}
+
+
+.Container{
+display: flex;
+    height: 107px;
+    background-color:  rgb(60, 255, 0);
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    border: 3px solid black;
+}
+
+.img{
+    background-color: rgb(145, 150, 129);
+    justify-content: start;
+    height: 100px;
+    width: 216px;
+    border: 3px solid black;
+}
+
+.element{
+    padding: 42px;
+    text-shadow: white 0 0 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 3px solid rgb(60, 255, 0);
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.element:hover{
+    cursor: pointer;
+    background-color: rgb(7, 233, 7);
+}
+
+.Container2{
+    margin: 0px 0px 0px 2px;
+    display: flex;
+    height: 100px;
+    background-color:  rgb(60, 255, 0);
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.inline{
+    margin: 25px;
+}
+
+.Container4{
+    margin:0px 0px 0px 200px;
+    display: block;
+    float: none;
+    align-items: stretch;
+}
+
+.inline{
+    margin: 25px;
+}
+
+.img2{
+    margin: 0.5px;
+    border: 1px solid black;
+}
+
+.element3{
+    color: white;
+    text-shadow: black 1px 1px 0,  black -1px -1px 0, 
+    black -1px 1px 0,  black 1px -1px 0;;
+    margin: 0px 0px 0px 30px;
+    height: 890px;
+    font-size: 200%;
+}
+
